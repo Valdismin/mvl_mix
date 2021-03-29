@@ -1,0 +1,44 @@
+.social-icons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 0;
+}
+.social-icons>li {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+}
+.social-icons a {
+    position: relative;
+    display: block;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: background-color .3s ease-in-out;
+    width: 5rem;
+    height: 5rem;
+    border-radius: .25rem;
+}
+
+.social-icons a::before {
+    content: "";
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    left: .85rem;
+    top: .85rem;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+}
+.social-icons .social-icon-vk::before {
+    background-image: url("https://www.flaticon.com/svg/vstatic/svg/2111/2111712.svg?token=exp=1616511462~hmac=c2335d5078687a4ca15dfb3ad6a83943");
+}
+.social-icons .social-icon-instagram::before {
+    background-image: url("https://www.flaticon.com/svg/vstatic/svg/1384/1384031.svg?token=exp=1616511307~hmac=91269f43bad82e21d403199ca79f95be");
+}
+.social-icons .social-icon-youtube::before {
+    background-image: url("https://www.flaticon.com/svg/vstatic/svg/174/174883.svg?token=exp=1616511403~hmac=7fac62a2df09c813707da6402e2e6008");
+}
