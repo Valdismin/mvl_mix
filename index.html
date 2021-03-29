@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="modal.css">
     <link rel="stylesheet" href="icons.css">
+    <link rel="stylesheet" href="current_season.css">
     <script src="modal.js"></script>
     <title>MinskVolley</title>
 </head>
@@ -15,10 +16,10 @@
         <div class="navigation">
             <img class="headerImage" src="./assets/mvl_mix.svg">
             <nav class="links">
-                <a href="#seasons" target={'blank'}>О нас</a>
-                <a target={'blank'}>Регламент</a>
-                <a target={'blank'}>Дивизионы</a>
-                <a target={'blank'}>Контакты</a>
+                <a href="" >О нас</a>
+                <a href="#reglament">Регламент</a>
+                <a href="#seasons">Дивизионы</a>
+                <a href="#contacts">Контакты</a>
             </nav>
         </div>
     </div>
@@ -44,11 +45,12 @@
         </h2>
         <div class="seasons_blocks">
             <div class="season_block">
-                <h2> В сезоне Осень-2019 команды лиги были разделены на 4 дивизиона, по 9-12 команд в каждом, всего
+                <h1>Осень-2019</h1>
+                <h3> В сезоне Осень-2019 команды лиги были разделены на 4 дивизиона, по 9-12 команд в каждом, всего
                     приняло
                     участие
                     31 команда
-                    В турнире впервые введена новая система проведения игр. </h2>
+                    В турнире впервые введена новая система проведения игр. </h3>
                 <button id="show-modal-Winter-2019" class="btn">Смотреть итоги сезона</button>
                 <script>
                     // создаём модальное окно
@@ -92,9 +94,10 @@
                 </script>
             </div>
             <div class="season_block">
-                <h2>В сезоне Весна-2020 приняло участие 46 команд в 4х дивизионах, но из-за ситуации с пандемией, турнир
+                <h1>Весна-2020</h1>
+                <h3>В сезоне Весна-2020 приняло участие 46 команд в 4х дивизионах, но из-за ситуации с пандемией, турнир
                     в 1
-                    и 2 дивизионах, так и не был завершен.</h2>
+                    и 2 дивизионах, так и не был завершен.</h3>
                 <button id="show-modal-Spring-2020" class="btn">Смотреть итоги сезона</button>
                 <script>
                     // создаём модальное окно
@@ -124,7 +127,8 @@
                 </script>
             </div>
             <div class="season_block">
-                <h2> В сезоне Осень-2020 приняло участие 41 команда в 4х дивизионах </h2>
+                <h1>Осень-2020</h1>
+                <h3> В сезоне Осень-2020 приняло участие 41 команда в 4х дивизионах </h3>
                 <button id="show-modal-Autumn-2020" class="btn">Смотреть итоги сезона</button>
                 <script>
                     // создаём модальное окно
@@ -169,16 +173,56 @@
             </div>
         </div>
     </section>
-    <section class="reglament">
+    <section id="current_season" class="current_season">
+        <div>
+            <h1>Составы дивизионов сезона Весна-2021</h1>
+            <div class="current_season_container">
+                <div class="division1">
+                    <h2>1 Дивизион</h2>
+                    <ul  type="circle" class="division">
+                        <li>Либерти</li>
+                        <li>Балаган</li>
+                        <li>Наша команда</li>
+                        <li>НВМИ</li>
+                        <li>Авангард</li>
+                        <li>Renegate</li>
+                        <li>Волна</li>
+                        <li>Авентус</li>
+                        <li>Прилуки</li>
+                        <li>Империя</li>
+                        <li>Pop&Dos</li>
+                    </ul>
+                </div>
+                <div class="division2">
+                    <h2>2 Дивизион</h2>
+                    <ul  type="circle" class="division">
+                        <li>GD_Team</li>
+                        <li>Команда А</li>
+                        <li>Itransition</li>
+                        <li>Компотики</li>
+                        <li>Команда синих</li>
+                        <li>SV2</li>
+                        <li>Брют</li>
+                        <li>И-ооп</li>
+                        <li>ХЗ</li>
+                        <li>MixBerry</li>
+                        <li>Cougars</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="reglament" class="reglament">
         <h1>C регламентом лиги можно ознакомиться по ссылке ниже:</h1>
-        <button>Регламент</button>
+        <button onclick="document.location='https://docs.google.com/document/d/1iDTDJ8TRQ2p3In8Zr5C72tIBBD7g0bitOBm4wlQVhbg/edit'">Регламент</button>
     </section>
 
-    <section class="footer">
+    <section id="contacts" class="footer">
+        <h1>Наши социальные сети</h1>
         <ul class="social-icons">
-            <li><a class="social-icon-vk" href="https://vk.com/mvlmix" title="..." target="_blank" rel="noopener"></a></li>
-            <li><a class="social-icon-instagram" href="https://www.instagram.com/minsk_volleyball_league_mix/?hl=ru" title="..." target="_blank" rel="noopener"></a></li>
-            <li><a class="social-icon-youtube" href="https://www.youtube.com/channel/UCXqKXR0tRZYnVAnLcCT8R2A" title="..." target="_blank" rel="noopener"></a></li>
+            <li><a class="social-icon-vk" href="https://vk.com/mvlmix" title="..." target="_blank" rel="noopener"> <img src="assets/VK.svg"></a></li>
+            <li><a class="social-icon-instagram" href="https://www.instagram.com/minsk_volleyball_league_mix/?hl=ru" title="..." target="_blank" rel="noopener"><img src="assets/Instagram.svg"></a></li>
+            <li><a class="social-icon-youtube" href="https://www.youtube.com/channel/UCXqKXR0tRZYnVAnLcCT8R2A" title="..." target="_blank" rel="noopener"><img src="assets/YouTube.svg"></a></li>
         </ul>
     </section>
 

@@ -1,0 +1,40 @@
+.current_season{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #C0C0C0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 1px double #191970;
+}
+.current_season h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    line-height: 1.7;
+    text-align: center;
+    color:#191970;
+    padding-bottom: 40px;
+}
+.current_season_container{
+    display: flex;
+    justify-content: center;
+}
+.current_season_container h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    color:#191970;
+    padding-bottom: 15px;
+}
+.current_season_container li{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 250;
+    line-height: 1;
+    color:#191970;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.division1{
+    margin-right: 100px;
+}

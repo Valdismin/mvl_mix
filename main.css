@@ -4,7 +4,7 @@
     width: 100%;
     background-color: #C0C0C0;
     align-items: center;
-    height:100px;
+    height:70px;
     position: fixed;
     opacity: 0.8;
     z-index: 999;
@@ -22,12 +22,14 @@
     font-weight: bold;
     font-size: large;
     text-decoration: none;
+    color: darkblue;
 }
 
 .headerImage {
-    width: 145px;
-    height: 145px;
+    width: 115px;
+    height: 115px;
     padding-left: 150px;
+    background-color: unset;
 }
 
 .main_image {
@@ -50,24 +52,37 @@
     font-family: "Javanese Text";
     font-size: large;
     color: black;
-    padding-top: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 70vh;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-bottom: 1px double #191970;
 }
 .seasons h2{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
     line-height: 1.2;
     text-align: center;
-    color:#191970
+    color:#191970;
+    width: 80vh;
+}
+.seasons h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    color:#191970;
 }
 .seasons h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 800;
     line-height: 1.7;
     text-align: center;
-    color:#191970
+    color:#191970;
+    padding-bottom: 40px;
 }
 .seasons_blocks {
     display: flex;
@@ -102,11 +117,17 @@
     align-items: center;
     justify-content: space-around;
     height: 100px;
+    background-color: #C0C0C0;
+    padding-bottom: 80px;
+    padding-top: 70px;
+    border-bottom: darkseagreen;
+    border-bottom: 1px double #191970;
 }
 .reglament h1{
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    line-height: 1.2;
+    font-weight: 800;
+    line-height: 1.7;
     text-align: center;
-    color:#191970
+    color:#191970;
+    padding-bottom: 40px;
 }
